@@ -1,0 +1,65 @@
+@media screen and (max-width: 800px) {
+  .container-header {
+    .header {
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      .list {
+        display: none;
+        &__ul {
+          display: none;
+        }
+        &__li {
+        }
+        &__a {
+        }
+      }
+      .list {
+        &__tel {
+          display: block;
+          display: flex;
+        }
+      }
+      .number {
+        display: flex;
+        gap: 10px;
+        &__link {
+          display: none;
+        }
+        &__list {
+          display: block;
+        }
+      }
+    }
+  }
+  .main-container {
+    padding: 0 10px;
+    // introductions
+    .introductions {
+      padding-top: 47px;
+      display: grid;
+      justify-content: center;
+    }
+    .block-title {
+      &__title {
+        text-align: center;
+      }
+      &__description {
+        padding-top: 10px;
+        text-align: center;
+      }
+      &__button {
+        display: grid;
+        justify-content: center;
+      }
+    }
+    .button {
+      display: grid;
+      justify-content: center;
+    }
+    .img-girl {
+      &__img {
+      }
+    }
+  }
+}
