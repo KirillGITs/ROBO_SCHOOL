@@ -1,0 +1,21 @@
+@import "normalize";
+@import "variables";
+@import "fonts";
+@import "media";
+@import "header";
+@import "introductions";
+
+body {
+  font-family: "Jost";
+  background-color: #141024;
+}
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
